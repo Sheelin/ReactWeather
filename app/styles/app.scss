@@ -1,0 +1,20 @@
+$space-large: 2.5rem;
+$primary-color: #777;
+
+.page-title {
+  margin-top: $space-large;
+  margin-bottom: $space-large;
+  color: $primary-color;
+}
+
+input[type=search] {
+  box-shadow: none;
+}
+
+
+/* fixes for using newer version of foundation */
+.small-centered {
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+}
